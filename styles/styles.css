@@ -32,12 +32,25 @@ color: #757575;
 /* прибираємо булети і підкреслювання */
 .link {
 text-decoration: none;
+list-style: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
 .list {
+font-family: 'Roboto';
+font-style: normal;
 padding: 0;
 margin: 0;
 list-style: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
 .page-header {
@@ -247,7 +260,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-.paragrapf-title {
+.paragraph-title {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -270,30 +283,29 @@ letter-spacing: 0.03em;
 color: #ffffff;
 }
 
-/*кнопки на странице портіолио */
+/*кнопки на странице портфоліо */
 /*filters*/
 
 .headup_hover {
 font-family: 'Roboto';
 font-size: 16px;
+border-radius: 4px;
 font-weight: 500;
 line-height: 1.62;
 letter-spacing: 0.02em;
-color: #ffffff;
-background-color:#2196F3;
+color: #212121;
+background-color:#F5F4FA;
 }
 
 
 .headup_hover:hover,
 .headup_hover:focus {
 cursor: pointer;
-background-color:#ffffff;
-color: #2196F3;
+background-color:#2196F3;
+color: #ffffff;
 }
 
 .section-title-portfolio {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -301,12 +313,10 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 
-.paragrapf-portfolio {
-font-family: 'Roboto';
-font-style: normal;
+.paragraph-portfolio {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87;
+line-height: 1.88;
 letter-spacing: 0.03em;
 color: #757575;
 }
